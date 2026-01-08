@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build SocialGraph",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++20",
+        "main.cpp",
+        "Person.cpp",
+        "SocialNetwork.cpp",
+        "-o",
+        "main"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
