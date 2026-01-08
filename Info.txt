@@ -1,0 +1,3 @@
+Project Description
+
+A modern C++ social graph where SocialNetwork owns all Person objects via std::unique_ptr. Friendships use ID-based references, avoiding shared ownership and lifetime issues. Logic is separated from I/O and exposed through const-correct APIs, demonstrating clean, safe design.
